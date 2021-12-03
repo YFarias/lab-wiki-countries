@@ -30,9 +30,8 @@ function CountriesList({ countriesData }) {
             class="list-group-item list-group-item-action"
             to={'/' + oneCountry.alpha3Code}
           >
-            <img
-              src={`https://flagpedia.net/data/flags/icon/72x54/${oneCountry.alpha2Code.toLowerCase()}.png`}
-              width="50px"/>
+            <img src = {`https://flagpedia.net/data/flags/icon/72x54/${oneCountry.alpha2Code.toLowerCase()}.png`}
+              alt="country flag" width="50px"/>
               
             <p>{oneCountry.name.common}</p>
           </Link>
